@@ -1,12 +1,12 @@
-eWaterCycle-Demo
-================
+# eWaterCycle-Demo
 
-Cesium (cesiumjs.org) based demo for eWaterCycle project.
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.11.0.
 
-Howto Install
-=============
+## Build & development
 
-1. Download ncWMS from http://www.resc.rdg.ac.uk/trac/ncWMS/wiki/DownloadPage and install according to instructions there.
-2. Clone this repository in your apache tomcat ROOT directory.
-3. Use the ncWMS interface to add your data files.
-4. Open http://localhost:8080/eWaterCycle-Demo/app/bootstrap.html
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
